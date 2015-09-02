@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Digital;
+    src: url("fonts/digital-7 (italic).ttf");
+}
+
 .clearfix:before, .clearfix:after {
 	content: " ";
 	display: table;
@@ -9,10 +14,20 @@
 
 .total{
 	background: #f6f6f6;
-	padding: 20px;
+	padding: 10px;
 	font-size: 40px;
-	min-height: 50px;
+	min-height: 30px;
 	margin-bottom: 30px;
+	font-family: Digital;
+}
+
+#previous-display{
+	background: #f6f6f6;
+	font-family: Digital;
+	height: 20px;
+	font-size: 25px;
+	padding: 5px;
+	text-align: right;
 }
 .calculator{
 	float: left;
@@ -45,17 +60,18 @@
 .numbers{
 }
 .numbers a{
-	display: block;
-	float: left;
-	width: 33.33%;
-	background: #333;
-	font-size: 30px;
-	text-decoration: none;
-	color: #fff;
-	text-align: center;
-	padding: 15px 0;
-	outline: 1px solid #fff;
-	border-radius: 10px;
+	background: #333 none repeat scroll 0 0;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #ccc;
+    display: block;
+    float: left;
+    font-size: 30px;
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    width: 33.33%;
 }
 .numbers a:hover, .numbers a:focus{
 	text-shadow: 0 0 6px #ffd;
