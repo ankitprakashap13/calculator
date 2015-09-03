@@ -16,7 +16,7 @@
 	background: #f6f6f6;
 	padding: 10px;
 	font-size: 40px;
-	min-height: 30px;
+	min-height: 42px;
 	margin-bottom: 30px;
 	font-family: Digital;
 }
@@ -83,6 +83,8 @@
 	background: #f9f9f9;
 	width: 400px;
 	border: 1px solid #333;
+	height: 626px;
+	overflow-y: scroll;
 }
 .history h4{
 	margin: 0;
